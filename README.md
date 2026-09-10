@@ -9,9 +9,46 @@ A skill ajuda a IA a tomar decisões arquiteturais de forma pragmática: começa
 ```text
 .
 ├── SKILL.md
+├── package.json
+├── bin/
+│   └── cli.js
 └── references/
     └── decision-heuristics.md
 ```
+
+## Instalação rápida com npx
+
+O repositório também pode ser usado como um pacote npm. O instalador não possui dependências externas e copia `SKILL.md` e as referências auxiliares para o projeto atual.
+
+```bash
+npx projeto-organizado-clean-code install
+```
+
+Por padrão, os arquivos serão instalados em:
+
+```text
+.ai/skills/projeto-organizado-clean-code/
+```
+
+Para escolher outro diretório:
+
+```bash
+npx projeto-organizado-clean-code install --target .cursor/skills/projeto-organizado-clean-code
+```
+
+Para atualizar uma instalação existente:
+
+```bash
+npx projeto-organizado-clean-code install --force
+```
+
+Para ver todas as opções:
+
+```bash
+npx projeto-organizado-clean-code help
+```
+
+> O comando instala os arquivos da skill, mas não ativa automaticamente uma configuração específica de cada IA. Depois da instalação, associe o diretório ao mecanismo de regras, instruções de projeto ou skills da ferramenta utilizada.
 
 ## Instalação no Manus
 

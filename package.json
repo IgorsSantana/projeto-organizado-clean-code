@@ -1,0 +1,30 @@
+{
+  "name": "projeto-organizado-clean-code",
+  "version": "1.0.0",
+  "description": "Skill para criação de projetos organizados, modulares e com clean code.",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "projeto-organizado-clean-code": "bin/cli.js"
+  },
+  "files": [
+    "SKILL.md",
+    "references",
+    "bin"
+  ],
+  "keywords": [
+    "ai-skill",
+    "clean-code",
+    "software-architecture",
+    "modular-architecture",
+    "manus"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorsSantana/projeto-organizado-clean-code.git"
+  },
+  "homepage": "https://github.com/IgorsSantana/projeto-organizado-clean-code",
+  "engines": {
+    "node": ">=18"
+  }
+}
